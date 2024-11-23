@@ -1,0 +1,33 @@
+.form-container {
+    max-width: 400px;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+.is-invalid {
+    border-color: red;
+}
+
+
+footer {
+    color: #000;
+    padding-top:10px;
+    font-size: 0.9rem;
+}
+
+@media (min-width: 767px)  {
+    .form-container  {   
+        max-width: 90%;
+        
+    }
+
+
+}
+
+@media (min-width: 768)and (max-width: 1024px) {
+    .form-container {
+        max-width: 70%;
+    }
+}
